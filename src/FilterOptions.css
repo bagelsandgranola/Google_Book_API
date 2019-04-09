@@ -1,0 +1,11 @@
+.FilterOptions {
+    display: flex;
+}
+
+.filter_bookType {
+    margin-left: 20px;
+}
+
+.Dropdown_label {
+    margin: 10px;
+}

@@ -1,0 +1,35 @@
+.BookResult {
+    display: flex;
+    width: 900px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+h1 {
+    margin-top: 0;
+    line-height: 16px;
+}
+
+.book_textContent {
+    float: 2;
+    width: 400px;
+}
+
+.book_thumbnail {
+    float: 1;
+    width: 200px;
+}
+
+.book_title{
+    font-size: 24px;
+}
+
+.book_author{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 15px;
+}

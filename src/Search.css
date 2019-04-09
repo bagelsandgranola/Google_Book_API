@@ -1,0 +1,20 @@
+.inputField {
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+}
+
+.searchSubmitButton {
+    margin: 10px;
+    height: 25px;
+    
+    width: 70px;
+    background-color: white;
+    border-color: lightgrey;
+}
+
+.searchSubmitButton:hover {
+    cursor: pointer;
+    background-color: rgb(240, 59, 179);
+    color: white;
+}

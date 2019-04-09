@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const Books = [
+    { "name": "Henry I", 
+    "author": "C. Warren Hollister",
+    "price": "$50.00",
+    "image": "https://books.google.com/books?id=zyTCAlFPjgYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "The resulting volume is one that will be welcomed by students and general readers alike",
+    },
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+    { "name": "Henry VIII", 
+    "author": "Alison Weir",
+    "price": "$15.50",
+    "image": "https://books.google.com/books?id=zyTCAlFPjgYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "This is a triumph of historical writing which will appeal equally to the general reader and serious historian",
+    }
+]
+
+
+ReactDOM.render(<App bookData={Books}/>, document.getElementById('root'));
+
+
