@@ -1,3 +1,11 @@
+
+Project for Thinkful's Full Stack Web Development Course.
+
+Using React components, state, props, event handlers, callback props, promises, and REST API's.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
