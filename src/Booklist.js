@@ -16,6 +16,13 @@ class Booklist extends Component {
         }
         else { description = "No description available"}
 
+        var bookimage = "";
+        if ('imageLinks' in book.volumeInfo && 'thumbnail' in book.volumeInfo.imageLinks)
+        {
+            bookimage = book.volumeInfo.imageLinks.thumbnail
+        }
+        else { bookimage = "http://www.surreyflagfootball.ca/wp-content/uploads/2018/04/1510200817001.png"}
+
 
         var price = "Not for sale"
         if(book.saleInfo.saleability === "NOT_FOR_SALE")
@@ -35,7 +42,8 @@ class Booklist extends Component {
         price={price}
         description={description}
         author={book.author}
-        image={book.volumeInfo.imageLinks.thumbnail}> </BookResult>
+        image={bookimage}
+        url={book.volumeInfo.infoLink}> </BookResult>
         )
     });
 
