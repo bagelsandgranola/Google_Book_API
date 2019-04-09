@@ -13,7 +13,7 @@ class BookResult extends Component {
     <div className="BookResult">
 
         <div className="book_thumbnail">
-            <img src={this.props.image} href={this.props.url} alt="picture of book"></img>
+            <img src={this.props.image} alt="picture of book"></img>
         </div>
 
         <div className="book_textContent">
